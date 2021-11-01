@@ -20,6 +20,7 @@ class Beyond12:
             array[i] = np.roll(array[i], shiftAmmount)
         '''
         array = np.roll(array, shiftAmmount)
+        
         return array
 
     def flipArrayVertically(self, array):

@@ -10,7 +10,7 @@ import numpy as np
 DEBUG = True
 
 # instantiate the app
-app = Flask(__name__, static_foler='../client/dist/')
+app = Flask(__name__)
 app.config.from_object(__name__)
 
 # enable CORS
